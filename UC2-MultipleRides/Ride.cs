@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace UC1_CalculateFare
+namespace UC2_MultipleRides
 {
    public class Ride
     {

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace UC1_CalculateFare
+namespace UC2_MultipleRides
 {
-    public class CabInvoiceException : Exception
+   public class CabInvoiceException : Exception
     {
         public enum ExceptionType
         {
@@ -21,7 +21,6 @@ namespace UC1_CalculateFare
         {
             this.type = type;
         }
-
 
     }
 }

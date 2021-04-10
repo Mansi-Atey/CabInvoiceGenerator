@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\UC1-CalculateFare\UC1-CalculateFare.csproj" />
+    <ProjectReference Include="..\UC2-MultipleRides\UC2-MultipleRides.csproj" />
   </ItemGroup>
 
 </Project>
