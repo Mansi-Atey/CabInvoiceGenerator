@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UC2-MultipleRides", "UC2-MultipleRides.csproj", "{37A414B9-F22F-40D2-AA05-8F064E53F261}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleRidesTest", "..\MultipleRidesTest\MultipleRidesTest.csproj", "{C6CC3ECF-4975-42DD-B96B-59EE57DA8335}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37A414B9-F22F-40D2-AA05-8F064E53F261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37A414B9-F22F-40D2-AA05-8F064E53F261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37A414B9-F22F-40D2-AA05-8F064E53F261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37A414B9-F22F-40D2-AA05-8F064E53F261}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6CC3ECF-4975-42DD-B96B-59EE57DA8335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6CC3ECF-4975-42DD-B96B-59EE57DA8335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6CC3ECF-4975-42DD-B96B-59EE57DA8335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6CC3ECF-4975-42DD-B96B-59EE57DA8335}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9E75092-E558-4F07-BD9D-0D84035E4B48}
+	EndGlobalSection
+EndGlobal

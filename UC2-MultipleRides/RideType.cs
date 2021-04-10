@@ -1,13 +1,11 @@
-﻿using DocumentFormat.OpenXml.Drawing;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace UC1_CalculateFare
+namespace UC2_MultipleRides
 {
     public enum RideType
     {
         NORMAL, PREMIUM
-
     }
 }
