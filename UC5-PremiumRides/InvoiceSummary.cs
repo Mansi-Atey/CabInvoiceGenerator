@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace UC3_EnhancedInvoice
+namespace UC5_PremiumRides
 {
    public class InvoiceSummary
     {
         private int numberOfRides;
         private double totalFare;
         private double averageFare;
-
+        private string userId;
         /// <summary>
         /// Parameterized Constructor For Setting Data
         /// </summary>
@@ -29,6 +29,13 @@ namespace UC3_EnhancedInvoice
             this.averageFare = this.totalFare / this.numberOfRides;
         }
 
+        public InvoiceSummary(int numberOfRides, double totalFare, string useId)
+        {
+            this.numberOfRides = numberOfRides;
+            this.totalFare = totalFare;
+            //this.userId = userId;
+            this.averageFare = this.totalFare / this.numberOfRides;
+        }
         /// <summary>
         /// Override Equls Method
         /// </summary>

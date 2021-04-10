@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace UC3_EnhancedInvoice
+namespace UC5_PremiumRides
 {
     class Program
     {

@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>UC3_EnhancedInvoice</RootNamespace>
+    <RootNamespace>UC5_PremiumRides</RootNamespace>
   </PropertyGroup>
 
 </Project>

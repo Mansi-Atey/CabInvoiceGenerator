@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace UC3_EnhancedInvoice
+namespace UC5_PremiumRides
 {
    public class RideRepository
     {

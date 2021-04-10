@@ -1,8 +1,8 @@
 //using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NUnit.Framework;
-using UC4_InvoiceService;
+using UC5_PremiumRides;
 
-namespace InvoiceServiceTest
+namespace PremiumRidesTest
 {
     [Microsoft.VisualStudio.TestTools.UnitTesting.TestClass]
     public class UnitTest1
@@ -63,7 +63,7 @@ namespace InvoiceServiceTest
         }
 
         /// <summary>
-        /// Test Case to for Invoice Service
+        /// Test Case to for User Specific Invoice 
         /// </summary>
         [Test]
         public void GivenUserId_WhenInvoivceService_ShouldReturnInvoice()
@@ -74,6 +74,23 @@ namespace InvoiceServiceTest
             InvoiceSummary summary = invoiceGenerator.GetInvoiceSummary("1");
             InvoiceSummary expectedSummary = new InvoiceSummary(2, 30.0, "1");
             Assert.AreEqual(expectedSummary, summary);
+        }
+
+        /// <summary>
+        /// Test Case to Calculate Fare for Primium Ride type
+        /// </summary>
+        [Test]
+        public void GivenRides_WhenPremiumAndNormal_ShouldSupportBoth()
+        {
+            invoiceGenerator = new InvoiceGenerator(RideType.PREMIUM);
+            double distance = 3.0;
+            int time = 20;
+            //Calculate Fare
+            double fare = invoiceGenerator.CalculateFare(distance, time);
+            double expected = 85;
+
+            //Asserting Values
+            Assert.AreEqual(expected, fare);
         }
     }
 }
