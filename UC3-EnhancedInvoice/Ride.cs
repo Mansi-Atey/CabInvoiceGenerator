@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace UC1_CalculateFare
+namespace UC3_EnhancedInvoice
 {
-   public class Ride
+    public class Ride
     {
         public double distance;
         public int time;

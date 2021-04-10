@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\UC1-CalculateFare\UC1-CalculateFare.csproj" />
+    <ProjectReference Include="..\UC3-EnhancedInvoice\UC3-EnhancedInvoice.csproj" />
   </ItemGroup>
 
 </Project>

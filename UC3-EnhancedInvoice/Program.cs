@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace UC1_CalculateFare
+namespace UC3_EnhancedInvoice
 {
     class Program
     {
