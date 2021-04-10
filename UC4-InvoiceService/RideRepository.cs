@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace UC5_PremiumRides
+namespace UC4_InvoiceService
 {
-   public class RideRepository
+    public class RideRepository
     {
         Dictionary<string, List<Ride>> userRides = null;
 

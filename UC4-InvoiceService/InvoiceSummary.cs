@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace UC5_PremiumRides
+namespace UC4_InvoiceService
 {
    public class InvoiceSummary
     {
@@ -33,7 +33,7 @@ namespace UC5_PremiumRides
         {
             this.numberOfRides = numberOfRides;
             this.totalFare = totalFare;
-            //this.userId = userId;
+            this.userId = userId;
             this.averageFare = this.totalFare / this.numberOfRides;
         }
         /// <summary>
